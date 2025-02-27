@@ -4,7 +4,7 @@ namespace collatz_conjecture {
 
     long unsigned int steps(long int n){
         
-        if(n == 0){
+        if(n <= 0 ){
             throw std::domain_error("Error: 0 is not a valid case");
         }
         
